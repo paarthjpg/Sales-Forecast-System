@@ -1,0 +1,97 @@
+======================================================================
+SALES FORECAST SUMMARY REPORT
+======================================================================
+
+Generated: 2026-02-21 15:30:00
+Forecast Period: 2024-01-01 to 2024-06-28
+Forecast Horizon: 6 months (180 days)
+
+======================================================================
+MODEL PERFORMANCE
+======================================================================
+Model Type: Linear Regression
+Testing R² Score: 0.8965 (89.65%)
+Testing MAE: $65.87
+Testing RMSE: $83.11
+Interpretation: Model explains 89.6% of sales variation
+
+======================================================================
+FORECAST STATISTICS
+======================================================================
+Average Daily Sales: $1,348.77
+Minimum Daily Sales: $1,278.83
+Maximum Daily Sales: $1,463.63
+Standard Deviation: $60.10
+Total Forecast (6 months): $242,777.88
+
+======================================================================
+COMPARISON WITH HISTORICAL DATA
+======================================================================
+Historical Average Daily Sales: $1,320.00
+Forecast Average Daily Sales: $1,348.77
+Change: $28.76 (+2.18%)
+
+======================================================================
+MONTHLY BREAKDOWN
+======================================================================
+
+2024-01:
+  Total Sales: $41,990.35
+  Avg Daily: $1,354.53
+  Days: 31
+
+2024-02:
+  Total Sales: $39,239.63
+  Avg Daily: $1,353.09
+  Days: 29
+
+2024-03:
+  Total Sales: $42,260.75
+  Avg Daily: $1,363.25
+  Days: 31
+
+2024-04:
+  Total Sales: $40,229.21
+  Avg Daily: $1,340.97
+  Days: 30
+
+2024-05:
+  Total Sales: $41,552.70
+  Avg Daily: $1,340.41
+  Days: 31
+
+2024-06:
+  Total Sales: $37,505.23
+  Avg Daily: $1,339.47
+  Days: 28
+
+======================================================================
+TOP 5 MOST IMPORTANT FEATURES (updated model)
+======================================================================
+
+1. MA_7 (7-day rolling avg)
+   Impact: Increases Sales — recent momentum is the strongest predictor
+
+2. MA_14 (14-day rolling avg)
+   Impact: Increases Sales
+
+3. Lag_1 (yesterday's sales)
+   Impact: Increases Sales — strong day-to-day persistence
+
+4. Lag_7 (sales 1 week ago)
+   Impact: Increases Sales — weekly seasonality
+
+5. Days_Since_Start (trend)
+   Impact: Increases Sales — steady upward growth trend
+
+======================================================================
+BUSINESS RECOMMENDATIONS
+======================================================================
+
+STABLE TREND:
+   Sales are projected to remain relatively stable.
+   Recommendation: Maintain current operations.
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -1,0 +1,25 @@
+║         SALES FORECAST - QUICK REFERENCE CARD              ║
+Forecast Period: Jan 01, 2024 - Jun 28, 2024
+Generated: Feb 21, 2026 at 03:30 PM
+
+KEY METRICS:
+────────────────────────────────────────────────────────────
+Average Daily Sales:     $    1,348.77
+Total 6-Month Forecast: $  242,777.88
+Model Accuracy (R²):             89.6%
+vs Historical:                    2.2%
+
+MONTHLY TOTALS:
+────────────────────────────────────────────────────────────
+January 2024         $   41,990.35
+February 2024        $   39,239.63
+March 2024           $   42,260.75
+April 2024           $   40,229.21
+May 2024             $   41,552.70
+June 2024            $   37,505.23
+
+────────────────────────────────────────────────────────────
+Files Generated:
+  • sales_forecast_daily.csv (daily data)
+  • sales_forecast_complete.xlsx (complete workbook)
+  • forecast_summary.txt (detailed report)
